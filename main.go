@@ -29,7 +29,7 @@ func main() {
   api.GET("/jokes", JokeHandler)
   api.POST("/jokes/like/:jokeID", LikeJoke)
   // Start and run the server
-  router.Run(":3000")
+  router.Run(":8080")
 }
 
 
